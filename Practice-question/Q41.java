@@ -6,8 +6,8 @@ public class Q41 {
         System.out.println("Enter the value of n = ");
         int n = sc.nextInt();
 
-        double m=Math.sqrt(n);
-        System.out.println("Square root of "+ n + " is " + m);
+        double r = Math.sqrt(n);
+        System.out.println("Square root of "+ n + " is " + r);
         
     }
 }
