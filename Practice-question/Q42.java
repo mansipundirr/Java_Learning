@@ -17,7 +17,7 @@ public class Q42 {
                         continue;
 
                 }
-                System.out.println("factor = " + i);
+                System.out.println("Perfect factor = " + i);
                 
             }
                 
