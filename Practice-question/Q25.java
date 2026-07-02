@@ -1,4 +1,4 @@
-    /* area of rectangle */
+         /* area of rectangle */
 import java.util.*;
 
 public class Q25 {

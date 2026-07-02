@@ -14,7 +14,7 @@ class A{ //class name = parameterized
                 System.out.println(a +" " +b);
 
             }
-            A(int  i , double j)
+    A(int  i , double j)
              {  
                  
                 System.out.println(i+" " +j);

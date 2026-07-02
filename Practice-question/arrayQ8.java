@@ -1,3 +1,4 @@
+    /*assending order  */
 import java.util.*;
 
 public class arrayQ8 {
