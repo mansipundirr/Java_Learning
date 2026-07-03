@@ -1,4 +1,4 @@
-class A{ //class name = parameterized
+ class A{ //class name = parameterized
     
          int x , y;  // instance variable
       
@@ -32,7 +32,6 @@ class A{ //class name = parameterized
         
     }
 }
-    
     class B
     {
             public static void main(String[] args)  // main method
