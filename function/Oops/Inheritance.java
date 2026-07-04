@@ -26,7 +26,7 @@ import java.util.Scanner;
     }
 }
 
-    class Student extends  Mansi{     // This is sub class and Mansi is super class the sub class is inheriting the properties of super class 
+    class Inheritance extends  Mansi{     // This is sub class and Mansi is super class the sub class is inheriting the properties of super class 
     
     void displ(){  // This method is in sub class and it is displaying the values of super class
 
@@ -37,7 +37,7 @@ import java.util.Scanner;
 
 
     public static void main(String[] args) { 
-        Student r = new Student();  // Creating an object of sub class
+        Inheritance r = new Inheritance();  // Creating an object of sub class
         r.input();
         r.displ();
     }
