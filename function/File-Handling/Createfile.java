@@ -12,7 +12,7 @@ public class Createfile {
         }
 
         else {  
-            System.out.println("File all ready exists....!");
+            System.out.println("File all ready exists........!");
          }
         }
     
