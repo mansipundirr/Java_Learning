@@ -1,8 +1,8 @@
-// Write your code here to check number is armstrong number or
 import java.util.Scanner;
-public class test{ 
-    public static void main(String[] args)
-{  
+
+public class test{
+     public static void main(String[] args)
+       {  
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the Number :");
     int num = sc.nextInt();
@@ -25,5 +25,7 @@ public class test{
             }  
     
 
-        }   
+    
  }
+    
+}
