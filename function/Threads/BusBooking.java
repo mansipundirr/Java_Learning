@@ -1,7 +1,7 @@
 class Booking implements Runnable{
     int availableSeats=1, passengers;
-     Booking(int passengers){
-        this.passengers = passengers;
+    Booking(int passengers){
+    this.passengers = passengers;
     }
     public synchronized void run(){
         String name = Thread.currentThread().getName();
@@ -19,7 +19,7 @@ class BusBooking {
     public static void main(String[] args) {
         Booking bus = new Booking(1); // Create a Bus object with 1 available seat
 
-        Thread t1 = new Thread(bus);
+        Thread t1 = new Thread(bus); // Create threads for passengers
         Thread t2 = new Thread(bus);
         Thread t3 = new Thread(bus);
         t1.setName("mansi");

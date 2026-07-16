@@ -11,7 +11,7 @@ public class Q18 {
         {
            fact = fact +i;
         }
-           System.out.println("factorial = " + fact);
+           System.out.println("Sum of Natural number = " + fact);
         }
     }
     

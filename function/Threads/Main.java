@@ -10,7 +10,7 @@ class thread1 extends Thread {
     Table t;
     thread1(Table t)
     {
-        this.t=t;
+        this.t=t; // why we use this keyword because we can access the instance variable of the class
     }
     public void run()
     {

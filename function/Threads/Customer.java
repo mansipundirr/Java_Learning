@@ -2,7 +2,10 @@ class Bank extends Thread {
   static int bal = 10000;
   static int withdraw;
 
-    Bank(int withdraw)
+    Bank(int withdraw) //
+    {
+        this.withdraw=withdraw;
+    }
     {
         this.withdraw=withdraw;
     }
@@ -27,20 +30,13 @@ class Bank extends Thread {
 
 class Customer {   
 public static void main(String[] args){
-    Bank obj = new Bank(5000);
-    
-
-    
+    Bank obj = new Bank(5000);   // Create a Bank object with an initial balance of 10000 and a withdrawal amount of 5000 
     Thread t1 = new Thread(obj);
     Thread t2 = new Thread(obj);
     t1.setName("Payal");
     t2.setName("Anshi");
    
-
-   
-
-    Bank obj2 = new Bank(5000);
-
+    Bank obj2 = new Bank(5000); // Create a new Bank object for the second pair of threads 
     Thread t3 = new Thread(obj2);
     Thread t4 = new Thread(obj2);
    

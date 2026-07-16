@@ -1,4 +1,4 @@
-            /*  Multithreading by extending Thread class */          
+/////////////////////////////////////////*  Multithreading by extending Thread class *////////////////////////////////////////////////////////////////////////         
 
 // import java.util.*;
 
@@ -31,7 +31,12 @@
 //         }
 //     }
 
-    /* Multithreading by implementing Runnable interface */
+
+
+
+
+
+  //////////////////////////////////////////////////* Multithreading by implementing Runnable interface *///////////////////////////////////////////////////////
     
 import java.util.*;
 
@@ -61,16 +66,17 @@ import java.util.*;
              }
         }  
 
-           catch (Exception e) {
-           System.out.println(e);
+        catch (Exception e) {
+
+                System.out.println(e);
 
          }
      }
  }
 
 
-        class B {
-            public static void main(String[] args)  throws InterruptedException {
+    class B {
+     public static void main(String[] args)  throws InterruptedException {
                 B1 t = new B1();  // object of thread class
                 Thread th = new Thread(t); //why we use this 
                 B2 t1 = new B2();   // object of thread class

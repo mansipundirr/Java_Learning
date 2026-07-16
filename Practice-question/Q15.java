@@ -1,3 +1,4 @@
+                 // Program to find the power of a number using for loop
 import java.util.*;
 
 public class Q15 {
@@ -9,7 +10,8 @@ public class Q15 {
         n = sc.nextInt();
         System.out.println("Enter the value of p :");
         p = sc.nextInt();
-        for (int i = 1; i <= p; i++) {
+        for (int i = 1; i <= p; i++) {  
+        //  Math.pow(n, p);
             result = result * n;
         }
         System.out.println("The result is : " + result);
