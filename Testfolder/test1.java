@@ -32,7 +32,7 @@ public static void main(String[] args)
     String name , reverse;
     name = str;
     reverse = new StringBuilder(str).reverse().toString();
-    if(name == reverse)
+    if(name.equals(reverse))
     {
         System.out.println("String is  a palindrome");
     }
